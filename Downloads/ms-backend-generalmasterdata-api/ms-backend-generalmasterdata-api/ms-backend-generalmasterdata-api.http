@@ -1,0 +1,6 @@
+@AnaPrevention.GeneralMasterData.Api_HostAddress = http://localhost:5090
+
+GET {{AnaPrevention.GeneralMasterData.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

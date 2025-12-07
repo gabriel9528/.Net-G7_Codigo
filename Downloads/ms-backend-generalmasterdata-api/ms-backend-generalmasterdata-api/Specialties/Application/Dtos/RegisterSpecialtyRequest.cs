@@ -1,0 +1,8 @@
+﻿namespace AnaPrevention.GeneralMasterData.Api.Specialties.Application.Dtos
+{
+    public class RegisterSpecialtyRequest
+    {
+        public string Description { get; set; } = string.Empty;
+        public string Code { get; set; } = string.Empty;
+    }
+}

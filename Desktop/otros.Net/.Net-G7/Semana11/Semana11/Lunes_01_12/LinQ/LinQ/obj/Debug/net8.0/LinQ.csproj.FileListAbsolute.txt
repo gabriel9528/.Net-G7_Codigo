@@ -1,0 +1,14 @@
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\LinQ\LinQ\bin\Debug\net8.0\LinQ.exe
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\LinQ\LinQ\bin\Debug\net8.0\LinQ.deps.json
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\LinQ\LinQ\bin\Debug\net8.0\LinQ.runtimeconfig.json
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\LinQ\LinQ\bin\Debug\net8.0\LinQ.dll
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\LinQ\LinQ\bin\Debug\net8.0\LinQ.pdb
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\LinQ\LinQ\obj\Debug\net8.0\LinQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\LinQ\LinQ\obj\Debug\net8.0\LinQ.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\LinQ\LinQ\obj\Debug\net8.0\LinQ.AssemblyInfo.cs
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\LinQ\LinQ\obj\Debug\net8.0\LinQ.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\LinQ\LinQ\obj\Debug\net8.0\LinQ.dll
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\LinQ\LinQ\obj\Debug\net8.0\refint\LinQ.dll
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\LinQ\LinQ\obj\Debug\net8.0\LinQ.pdb
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\LinQ\LinQ\obj\Debug\net8.0\LinQ.genruntimeconfig.cache
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\LinQ\LinQ\obj\Debug\net8.0\ref\LinQ.dll

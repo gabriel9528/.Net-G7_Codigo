@@ -1,0 +1,12 @@
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana10\Miercoles_26_11\DapperMVCDemo.UI\DapperMVCDemo.Data\bin\Debug\net8.0\DapperMVCDemo.Data.deps.json
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana10\Miercoles_26_11\DapperMVCDemo.UI\DapperMVCDemo.Data\bin\Debug\net8.0\DapperMVCDemo.Data.dll
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana10\Miercoles_26_11\DapperMVCDemo.UI\DapperMVCDemo.Data\bin\Debug\net8.0\DapperMVCDemo.Data.pdb
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana10\Miercoles_26_11\DapperMVCDemo.UI\DapperMVCDemo.Data\obj\Debug\net8.0\DapperMVCDemo.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana10\Miercoles_26_11\DapperMVCDemo.UI\DapperMVCDemo.Data\obj\Debug\net8.0\DapperMVCDemo.Data.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana10\Miercoles_26_11\DapperMVCDemo.UI\DapperMVCDemo.Data\obj\Debug\net8.0\DapperMVCDemo.Data.AssemblyInfo.cs
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana10\Miercoles_26_11\DapperMVCDemo.UI\DapperMVCDemo.Data\obj\Debug\net8.0\DapperMVCDemo.Data.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana10\Miercoles_26_11\DapperMVCDemo.UI\DapperMVCDemo.Data\obj\Debug\net8.0\DapperMVCDemo.Data.dll
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana10\Miercoles_26_11\DapperMVCDemo.UI\DapperMVCDemo.Data\obj\Debug\net8.0\refint\DapperMVCDemo.Data.dll
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana10\Miercoles_26_11\DapperMVCDemo.UI\DapperMVCDemo.Data\obj\Debug\net8.0\DapperMVCDemo.Data.pdb
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana10\Miercoles_26_11\DapperMVCDemo.UI\DapperMVCDemo.Data\obj\Debug\net8.0\ref\DapperMVCDemo.Data.dll
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana10\Miercoles_26_11\DapperMVCDemo.UI\DapperMVCDemo.Data\obj\Debug\net8.0\DapperMVCDemo.Data.csproj.AssemblyReference.cache

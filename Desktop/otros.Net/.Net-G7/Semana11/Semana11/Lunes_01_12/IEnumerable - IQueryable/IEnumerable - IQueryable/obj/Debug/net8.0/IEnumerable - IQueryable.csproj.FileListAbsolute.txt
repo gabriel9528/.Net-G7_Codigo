@@ -1,0 +1,14 @@
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\IEnumerable - IQueryable\IEnumerable - IQueryable\bin\Debug\net8.0\IEnumerable - IQueryable.exe
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\IEnumerable - IQueryable\IEnumerable - IQueryable\bin\Debug\net8.0\IEnumerable - IQueryable.deps.json
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\IEnumerable - IQueryable\IEnumerable - IQueryable\bin\Debug\net8.0\IEnumerable - IQueryable.runtimeconfig.json
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\IEnumerable - IQueryable\IEnumerable - IQueryable\bin\Debug\net8.0\IEnumerable - IQueryable.dll
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\IEnumerable - IQueryable\IEnumerable - IQueryable\bin\Debug\net8.0\IEnumerable - IQueryable.pdb
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\IEnumerable - IQueryable\IEnumerable - IQueryable\obj\Debug\net8.0\IEnumerable - IQueryable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\IEnumerable - IQueryable\IEnumerable - IQueryable\obj\Debug\net8.0\IEnumerable - IQueryable.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\IEnumerable - IQueryable\IEnumerable - IQueryable\obj\Debug\net8.0\IEnumerable - IQueryable.AssemblyInfo.cs
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\IEnumerable - IQueryable\IEnumerable - IQueryable\obj\Debug\net8.0\IEnumerable - IQueryable.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\IEnumerable - IQueryable\IEnumerable - IQueryable\obj\Debug\net8.0\IEnumerable - IQueryable.dll
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\IEnumerable - IQueryable\IEnumerable - IQueryable\obj\Debug\net8.0\refint\IEnumerable - IQueryable.dll
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\IEnumerable - IQueryable\IEnumerable - IQueryable\obj\Debug\net8.0\IEnumerable - IQueryable.pdb
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\IEnumerable - IQueryable\IEnumerable - IQueryable\obj\Debug\net8.0\IEnumerable - IQueryable.genruntimeconfig.cache
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\IEnumerable - IQueryable\IEnumerable - IQueryable\obj\Debug\net8.0\ref\IEnumerable - IQueryable.dll

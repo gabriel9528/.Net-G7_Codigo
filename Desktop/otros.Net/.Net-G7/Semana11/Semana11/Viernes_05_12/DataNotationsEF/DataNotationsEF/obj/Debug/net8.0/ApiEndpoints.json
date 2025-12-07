@@ -1,0 +1,179 @@
+[
+  {
+    "ContainingType": "DataNotationsEF.Controllers.ManyToManyController",
+    "Method": "GetStudentsAsync",
+    "RelativePath": "api/ManyToMany/GetStudents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DataNotationsEF.Controllers.ManyToManyController",
+    "Method": "GetSubjectsAsync",
+    "RelativePath": "api/ManyToMany/GetSubjects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DataNotationsEF.Controllers.ManyToManyController",
+    "Method": "AddStudentAsync",
+    "RelativePath": "api/ManyToMany/Student",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "student",
+        "Type": "DataNotationsEF.Models.ManyToMany.Student",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DataNotationsEF.Controllers.ManyToManyController",
+    "Method": "AddPatient",
+    "RelativePath": "api/ManyToMany/Subject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subject",
+        "Type": "DataNotationsEF.Models.ManyToMany.Subject",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DataNotationsEF.Controllers.OneToManyController",
+    "Method": "AddDoctor",
+    "RelativePath": "api/OneToMany/Doctor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctor",
+        "Type": "DataNotationsEF.Models.OneToMany.Doctor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DataNotationsEF.Controllers.OneToManyController",
+    "Method": "GetDoctors",
+    "RelativePath": "api/OneToMany/GetDoctors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DataNotationsEF.Controllers.OneToManyController",
+    "Method": "GetPatients",
+    "RelativePath": "api/OneToMany/GetPatients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DataNotationsEF.Controllers.OneToManyController",
+    "Method": "AddPatient",
+    "RelativePath": "api/OneToMany/Patient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patient",
+        "Type": "DataNotationsEF.Models.OneToMany.Patient",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DataNotationsEF.Controllers.OneToOneController",
+    "Method": "AddCarCompany",
+    "RelativePath": "CarCompany",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "carCompany",
+        "Type": "DataNotationsEF.Models.OneToOne.CarCompany",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DataNotationsEF.Controllers.OneToOneController",
+    "Method": "AddCarModel",
+    "RelativePath": "CarModel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "carModel",
+        "Type": "DataNotationsEF.Models.OneToOne.CarModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DataNotationsEF.Controllers.OneToOneController",
+    "Method": "GetCarCompanies",
+    "RelativePath": "GetCarCompanies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DataNotationsEF.Controllers.OneToOneController",
+    "Method": "GetCarModels",
+    "RelativePath": "GetCarModels",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DataNotationsEF.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DataNotationsEF.WeatherForecast, DataNotationsEF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
