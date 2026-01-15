@@ -1,0 +1,14 @@
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\Ejercicio3-LinQ\Ejercicio3-LinQ\bin\Debug\net8.0\Ejercicio3-LinQ.exe
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\Ejercicio3-LinQ\Ejercicio3-LinQ\bin\Debug\net8.0\Ejercicio3-LinQ.deps.json
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\Ejercicio3-LinQ\Ejercicio3-LinQ\bin\Debug\net8.0\Ejercicio3-LinQ.runtimeconfig.json
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\Ejercicio3-LinQ\Ejercicio3-LinQ\bin\Debug\net8.0\Ejercicio3-LinQ.dll
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\Ejercicio3-LinQ\Ejercicio3-LinQ\bin\Debug\net8.0\Ejercicio3-LinQ.pdb
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\Ejercicio3-LinQ\Ejercicio3-LinQ\obj\Debug\net8.0\Ejercicio3-LinQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\Ejercicio3-LinQ\Ejercicio3-LinQ\obj\Debug\net8.0\Ejercicio3-LinQ.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\Ejercicio3-LinQ\Ejercicio3-LinQ\obj\Debug\net8.0\Ejercicio3-LinQ.AssemblyInfo.cs
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\Ejercicio3-LinQ\Ejercicio3-LinQ\obj\Debug\net8.0\Ejercicio3-LinQ.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\Ejercicio3-LinQ\Ejercicio3-LinQ\obj\Debug\net8.0\Ejercicio3-LinQ.dll
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\Ejercicio3-LinQ\Ejercicio3-LinQ\obj\Debug\net8.0\refint\Ejercicio3-LinQ.dll
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\Ejercicio3-LinQ\Ejercicio3-LinQ\obj\Debug\net8.0\Ejercicio3-LinQ.pdb
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\Ejercicio3-LinQ\Ejercicio3-LinQ\obj\Debug\net8.0\Ejercicio3-LinQ.genruntimeconfig.cache
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana11\Lunes_01_12\Ejercicio3-LinQ\Ejercicio3-LinQ\obj\Debug\net8.0\ref\Ejercicio3-LinQ.dll

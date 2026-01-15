@@ -1,0 +1,54 @@
+﻿@model ProyectoCapas.Models.Slider
+
+@{
+    ViewData["Title"] = "Crear un nuevo Slider";
+}
+
+<br />
+<br />
+<h3 class="text-center">Crear un nuevo Slider</h3>
+<form method="post" asp-action="Create" enctype="multipart/form-data">
+    <div class="row px-1 offset-1 border">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Name"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Name" class="form-control" placeholder="Ingresa el nombre del Slider" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="State"></label>
+                </div>
+                <div class="col-8">
+                    <input type="checkbox" asp-for="State" />
+                    <span asp-validation-for="State" class="text-danger"></span>
+                </div>
+            </div>
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="UrlImage"></label>
+                </div>
+                <div class="col-8">
+                    <input type="file" name="archivos" class="form-control" />
+                    <span asp-validation-for="UrlImage" class="text-danger"></span>
+                </div>
+            </div>
+            <br />
+            <div class="form-group row">
+                <div class="col-6">
+                    <partial name="_ViewCreate" />
+                </div>
+                <div class="col-6">
+                    <a href="/Admin/Sliders/Index" class="btn btn-success form-control">Regresar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

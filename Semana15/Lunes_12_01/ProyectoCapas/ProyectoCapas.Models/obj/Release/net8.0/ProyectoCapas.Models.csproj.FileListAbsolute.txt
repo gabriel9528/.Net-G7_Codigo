@@ -1,0 +1,12 @@
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\bin\Release\net8.0\ProyectoCapas.Models.deps.json
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\bin\Release\net8.0\ProyectoCapas.Models.dll
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\bin\Release\net8.0\ProyectoCapas.Models.pdb
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\obj\Release\net8.0\ProyectoCapas.Models.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\obj\Release\net8.0\ProyectoCapas.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\obj\Release\net8.0\ProyectoCapas.Models.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\obj\Release\net8.0\ProyectoCapas.Models.AssemblyInfo.cs
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\obj\Release\net8.0\ProyectoCapas.Models.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\obj\Release\net8.0\ProyectoCapas.Models.dll
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\obj\Release\net8.0\refint\ProyectoCapas.Models.dll
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\obj\Release\net8.0\ProyectoCapas.Models.pdb
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\obj\Release\net8.0\ref\ProyectoCapas.Models.dll

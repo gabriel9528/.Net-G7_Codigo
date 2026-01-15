@@ -1,0 +1,92 @@
+﻿@model ProyectoCapas.Models.ViewModel.ArticleCategoryViewModel
+
+@{
+    ViewData["Title"] = "Editar Articulo";
+}
+
+<br />
+<br />
+<h3 class="text-center">Editar Articulo</h3>
+<form method="post" asp-action="Edit" enctype="multipart/form-data">
+
+    <div class="row px-1 offset-1 border">
+        <input type="hidden" asp-for="Article.Id" />
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label class="col-12">
+                        <label asp-for="Article.Name"></label>
+                    </label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Article.Name" class="form-control" placeholder="Ingresa un nombre para el Articulo" />
+                    <span asp-validation-for="Article.Name" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label class="col-4">
+                        <label asp-for="Article.Description"></label>
+                    </label>
+                </div>
+                <div class="col-8">
+                    <textarea asp-for="Article.Description" class="form-control" style="height:300px"></textarea>
+                    <span asp-validation-for="Article.Description" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="form-group row mt-2">
+                <div class="col-4">
+                    <label class="col-4">
+                        <label asp-for="Article.CategoryId">Categoria</label>
+                    </label>
+                </div>
+                <div class="col-8 mt-2">
+                    @Html.DropDownListFor(m => m.Article.CategoryId, Model.ListCategories, "--Porfavor seleccione una categoria--",
+                             new { @classs = "form-control" })
+                    <span asp-validation-for="Article.CategoryId" class="text-danger"></span>
+                    <input type="hidden" asp-for="Article.Category" />
+                </div>
+            </div>
+
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label class="col-4">
+                        <label asp-for="Article.UrlImage"></label>
+                    </label>
+                </div>
+                <div class="col-8">
+                    <input type="file" name="archivos" id="subidaArchivos" class="form-control" />
+                </div>
+            </div>
+
+
+            <br />
+            <div class="form-group row">
+                <div class="col-8">
+                    <partial name="_ViewEdit" />
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</form>
+
+@section Scripts {
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/7.1.0/tinymce.min.js" integrity="sha512-Va3PZJRSZ8TlnqUfjkA5YPR57+oIscCVoNGjYK1JYsOTw8VU7517hHqs90/h/YuUm8KZl9iD+Dt8K6T8uAJCqw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'lists',
+            menubar: 'file edit format'
+        });
+    </script>
+}

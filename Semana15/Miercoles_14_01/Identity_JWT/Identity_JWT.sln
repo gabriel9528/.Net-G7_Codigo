@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNetCoreIdentity_JWT", "ASPNetCoreIdentity_JWT\ASPNetCoreIdentity_JWT.csproj", "{0CC70E2A-AFD1-4AD1-8346-55DC727F1DF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchClassLibrary", "SearchClassLibrary\SearchClassLibrary.csproj", "{9B59223B-C872-460B-8ACB-7DDD8D337EBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CC70E2A-AFD1-4AD1-8346-55DC727F1DF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC70E2A-AFD1-4AD1-8346-55DC727F1DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC70E2A-AFD1-4AD1-8346-55DC727F1DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC70E2A-AFD1-4AD1-8346-55DC727F1DF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B59223B-C872-460B-8ACB-7DDD8D337EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B59223B-C872-460B-8ACB-7DDD8D337EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B59223B-C872-460B-8ACB-7DDD8D337EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B59223B-C872-460B-8ACB-7DDD8D337EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {387F9AC2-B8F8-4362-8FEF-9DD68F0B803E}
+	EndGlobalSection
+EndGlobal

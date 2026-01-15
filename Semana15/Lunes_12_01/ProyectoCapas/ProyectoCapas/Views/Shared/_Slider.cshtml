@@ -1,0 +1,42 @@
+﻿@model ProyectoCapas.Models.ViewModel.HomeViewModel
+
+<!--Slider-->
+
+<div id="sliderImagenes" class="carousel slide">
+    <div class="carousel-inner">
+        @{
+            var activeSliders = Model.listSliders.Where(x => x.State == true).ToList();
+            int count = 0;
+        }
+
+        @foreach (var slider in activeSliders)
+        {
+            @* string dynamic = "";
+            if(count == 0)
+            {
+                dynamic = "active";
+            }
+            else
+            {
+                dynamic = "inactive";
+            } 
+            count++*@
+            var itemDynamico = count++ == 0 ? "active" : "inactive";
+
+            <div class="carousel-item @itemDynamico">
+                <img src="@Url.Content(slider.UrlImage)" class="d-block w-100" />
+                <h1 class="text-center bg-light py-1" style="color:aliceblue;">@Html.Raw(slider)</h1>
+            </div>
+        }
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#sliderImagenes" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#sliderImagenes" data-bs-slide="prev">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+</div>

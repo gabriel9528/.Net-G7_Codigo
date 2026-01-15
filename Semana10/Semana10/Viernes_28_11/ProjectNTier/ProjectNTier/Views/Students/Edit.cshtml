@@ -1,0 +1,32 @@
+﻿@model BOL.DataBaseEntities.Student
+
+<div>
+    <h3>Crear Estudiante</h3>
+</div>
+
+<div class="row">
+    <div class="col-lg-8">
+        <form asp-action="EditStudent" asp-controller="Students" method="post">
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="FirstName" class="form-label">Nombres</label>
+                <input asp-for="FirstName" type="text" class="form-control" placeholder="Ingrese sus Nombres" required />
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="form-label">Apellidos</label>
+                <input asp-for="LastName" type="text" class="form-control" placeholder="Ingrese sus Apellidos" required />
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="form-label">Email</label>
+                <input asp-for="Email" type="email" class="form-control" placeholder="Ingrese su correo" required />
+            </div>
+
+            <button type="submit" class="btn btn-success">Editar</button>
+        </form>
+    </div>
+</div>
+
+
+
+
+

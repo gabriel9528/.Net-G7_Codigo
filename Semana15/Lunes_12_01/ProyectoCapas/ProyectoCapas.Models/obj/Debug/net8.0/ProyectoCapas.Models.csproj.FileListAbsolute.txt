@@ -1,0 +1,35 @@
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana13\Viernes_19_12\ProyectoCapas\ProyectoCapas.Models\bin\Debug\net8.0\ProyectoCapas.Models.deps.json
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana13\Viernes_19_12\ProyectoCapas\ProyectoCapas.Models\bin\Debug\net8.0\ProyectoCapas.Models.dll
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana13\Viernes_19_12\ProyectoCapas\ProyectoCapas.Models\bin\Debug\net8.0\ProyectoCapas.Models.pdb
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana13\Viernes_19_12\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ProyectoCapas.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana13\Viernes_19_12\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ProyectoCapas.Models.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana13\Viernes_19_12\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ProyectoCapas.Models.AssemblyInfo.cs
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana13\Viernes_19_12\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ProyectoCapas.Models.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana13\Viernes_19_12\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ProyectoCapas.Models.dll
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana13\Viernes_19_12\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\refint\ProyectoCapas.Models.dll
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana13\Viernes_19_12\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ProyectoCapas.Models.pdb
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana13\Viernes_19_12\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ref\ProyectoCapas.Models.dll
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana14\Lunes_22_12\ProyectoCapas\ProyectoCapas.Models\bin\Debug\net8.0\ProyectoCapas.Models.deps.json
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana14\Lunes_22_12\ProyectoCapas\ProyectoCapas.Models\bin\Debug\net8.0\ProyectoCapas.Models.dll
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana14\Lunes_22_12\ProyectoCapas\ProyectoCapas.Models\bin\Debug\net8.0\ProyectoCapas.Models.pdb
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana14\Lunes_22_12\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ProyectoCapas.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana14\Lunes_22_12\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ProyectoCapas.Models.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana14\Lunes_22_12\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ProyectoCapas.Models.AssemblyInfo.cs
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana14\Lunes_22_12\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ProyectoCapas.Models.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana14\Lunes_22_12\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ProyectoCapas.Models.dll
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana14\Lunes_22_12\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\refint\ProyectoCapas.Models.dll
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana14\Lunes_22_12\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ProyectoCapas.Models.pdb
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana14\Lunes_22_12\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ref\ProyectoCapas.Models.dll
+C:\Users\USUARIO\Desktop\Codigo_Tecsup\.Net_G7\Semana14\Lunes_22_12\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ProyectoCapas.Models.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\bin\Debug\net8.0\ProyectoCapas.Models.deps.json
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\bin\Debug\net8.0\ProyectoCapas.Models.dll
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\bin\Debug\net8.0\ProyectoCapas.Models.pdb
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ProyectoCapas.Models.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ProyectoCapas.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ProyectoCapas.Models.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ProyectoCapas.Models.AssemblyInfo.cs
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ProyectoCapas.Models.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ProyectoCapas.Models.dll
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\refint\ProyectoCapas.Models.dll
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ProyectoCapas.Models.pdb
+C:\Users\LENOVO\Downloads\ProyectoCapas general\ProyectoCapas\ProyectoCapas.Models\obj\Debug\net8.0\ref\ProyectoCapas.Models.dll
