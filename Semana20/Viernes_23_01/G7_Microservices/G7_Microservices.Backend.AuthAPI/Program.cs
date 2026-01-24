@@ -1,5 +1,6 @@
 using G7_Microservices.Backend.AuthAPI.Data;
 using G7_Microservices.Backend.AuthAPI.Models;
+using G7_Microservices.Backend.AuthAPI.Services.IServices;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,9 +16,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+builder.Services.Configure<JwtOptions>(builder.Configuration.GetSection("ApiSettings:JwtOptions"));
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
+builder.Services.AddScoped<IJwtTokenGenerator, IJwtTokenGenerator>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

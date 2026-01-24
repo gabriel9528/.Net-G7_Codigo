@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("G7_Microservices.Backend.AuthAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08f003f89dc4be32fde8f2bf330d04da3b6d9063")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c16b7290b3770475869b4ba1b5d1e1c21ecd41ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("G7_Microservices.Backend.AuthAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("G7_Microservices.Backend.AuthAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
