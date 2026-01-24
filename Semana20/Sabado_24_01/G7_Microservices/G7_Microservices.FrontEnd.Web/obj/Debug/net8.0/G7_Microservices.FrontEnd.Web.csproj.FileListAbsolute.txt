@@ -108,3 +108,8 @@ C:\Users\LENOVO\Desktop\.NET-G7\.Net-G7_Codigo\Semana20\Sabado_24_01\G7_Microser
 C:\Users\LENOVO\Desktop\.NET-G7\.Net-G7_Codigo\Semana20\Sabado_24_01\G7_Microservices\G7_Microservices.FrontEnd.Web\obj\Debug\net8.0\G7_Microservices.FrontEnd.Web.pdb
 C:\Users\LENOVO\Desktop\.NET-G7\.Net-G7_Codigo\Semana20\Sabado_24_01\G7_Microservices\G7_Microservices.FrontEnd.Web\obj\Debug\net8.0\G7_Microservices.FrontEnd.Web.genruntimeconfig.cache
 C:\Users\LENOVO\Desktop\.NET-G7\.Net-G7_Codigo\Semana20\Sabado_24_01\G7_Microservices\G7_Microservices.FrontEnd.Web\obj\Debug\net8.0\ref\G7_Microservices.FrontEnd.Web.dll
+C:\Users\LENOVO\Desktop\.NET-G7\.Net-G7_Codigo\Semana20\Sabado_24_01\G7_Microservices\G7_Microservices.FrontEnd.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\LENOVO\Desktop\.NET-G7\.Net-G7_Codigo\Semana20\Sabado_24_01\G7_Microservices\G7_Microservices.FrontEnd.Web\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\LENOVO\Desktop\.NET-G7\.Net-G7_Codigo\Semana20\Sabado_24_01\G7_Microservices\G7_Microservices.FrontEnd.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\LENOVO\Desktop\.NET-G7\.Net-G7_Codigo\Semana20\Sabado_24_01\G7_Microservices\G7_Microservices.FrontEnd.Web\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\LENOVO\Desktop\.NET-G7\.Net-G7_Codigo\Semana20\Sabado_24_01\G7_Microservices\G7_Microservices.FrontEnd.Web\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
