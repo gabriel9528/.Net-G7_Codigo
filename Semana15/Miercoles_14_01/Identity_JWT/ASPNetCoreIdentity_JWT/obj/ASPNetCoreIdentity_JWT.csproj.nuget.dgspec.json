@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\Miercoles_14_01\\Identity_JWT\\ASPNetCoreIdentity_JWT\\ASPNetCoreIdentity_JWT.csproj": {}
+    "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana15\\Miercoles_14_01\\Identity_JWT\\ASPNetCoreIdentity_JWT\\ASPNetCoreIdentity_JWT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\Miercoles_14_01\\Identity_JWT\\ASPNetCoreIdentity_JWT\\ASPNetCoreIdentity_JWT.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana15\\Miercoles_14_01\\Identity_JWT\\ASPNetCoreIdentity_JWT\\ASPNetCoreIdentity_JWT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\Miercoles_14_01\\Identity_JWT\\ASPNetCoreIdentity_JWT\\ASPNetCoreIdentity_JWT.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana15\\Miercoles_14_01\\Identity_JWT\\ASPNetCoreIdentity_JWT\\ASPNetCoreIdentity_JWT.csproj",
         "projectName": "ASPNetCoreIdentity_JWT",
-        "projectPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\Miercoles_14_01\\Identity_JWT\\ASPNetCoreIdentity_JWT\\ASPNetCoreIdentity_JWT.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana15\\Miercoles_14_01\\Identity_JWT\\ASPNetCoreIdentity_JWT\\ASPNetCoreIdentity_JWT.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\Miercoles_14_01\\Identity_JWT\\ASPNetCoreIdentity_JWT\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana15\\Miercoles_14_01\\Identity_JWT\\ASPNetCoreIdentity_JWT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\Miercoles_14_01\\Identity_JWT\\SearchClassLibrary\\SearchClassLibrary.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\Miercoles_14_01\\Identity_JWT\\SearchClassLibrary\\SearchClassLibrary.csproj"
+              "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana15\\Miercoles_14_01\\Identity_JWT\\SearchClassLibrary\\SearchClassLibrary.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana15\\Miercoles_14_01\\Identity_JWT\\SearchClassLibrary\\SearchClassLibrary.csproj"
               }
             }
           }
@@ -116,14 +116,14 @@
         }
       }
     },
-    "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\Miercoles_14_01\\Identity_JWT\\SearchClassLibrary\\SearchClassLibrary.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana15\\Miercoles_14_01\\Identity_JWT\\SearchClassLibrary\\SearchClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\Miercoles_14_01\\Identity_JWT\\SearchClassLibrary\\SearchClassLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana15\\Miercoles_14_01\\Identity_JWT\\SearchClassLibrary\\SearchClassLibrary.csproj",
         "projectName": "SearchClassLibrary",
-        "projectPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\Miercoles_14_01\\Identity_JWT\\SearchClassLibrary\\SearchClassLibrary.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana15\\Miercoles_14_01\\Identity_JWT\\SearchClassLibrary\\SearchClassLibrary.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\Miercoles_14_01\\Identity_JWT\\SearchClassLibrary\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana15\\Miercoles_14_01\\Identity_JWT\\SearchClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

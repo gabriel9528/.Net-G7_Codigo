@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Backend/">
+    <Project Path="G7_Microservices.Backend.CouponAPI/G7_Microservices.Backend.CouponAPI.csproj" />
+  </Folder>
+  <Folder Name="/FrontEnd/">
+    <Project Path="G7_Microservices.FrontEnd.Web/G7_Microservices.FrontEnd.Web.csproj" />
+  </Folder>
+  <Folder Name="/GateWay/" />
+  <Folder Name="/Integration/" />
+</Solution>

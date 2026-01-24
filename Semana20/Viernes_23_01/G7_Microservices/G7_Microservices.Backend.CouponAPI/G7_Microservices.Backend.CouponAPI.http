@@ -1,0 +1,6 @@
+@G7_Microservices.Backend.CouponAPI_HostAddress = http://localhost:5215
+
+GET {{G7_Microservices.Backend.CouponAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

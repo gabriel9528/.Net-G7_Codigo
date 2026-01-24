@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7q0rmPIGZn0=",
+  "dgSpecHash": "+ZijERdfeew=",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\Miercoles_14_01\\Identity_JWT\\ASPNetCoreIdentity_JWT\\ASPNetCoreIdentity_JWT.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana15\\Miercoles_14_01\\Identity_JWT\\ASPNetCoreIdentity_JWT\\ASPNetCoreIdentity_JWT.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -95,9 +95,9 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "El paquete \"System.IdentityModel.Tokens.Jwt\" 7.0.3 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\Miercoles_14_01\\Identity_JWT\\ASPNetCoreIdentity_JWT\\ASPNetCoreIdentity_JWT.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana15\\Miercoles_14_01\\Identity_JWT\\ASPNetCoreIdentity_JWT\\ASPNetCoreIdentity_JWT.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\Miercoles_14_01\\Identity_JWT\\ASPNetCoreIdentity_JWT\\ASPNetCoreIdentity_JWT.csproj",
+      "filePath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana15\\Miercoles_14_01\\Identity_JWT\\ASPNetCoreIdentity_JWT\\ASPNetCoreIdentity_JWT.csproj",
       "libraryId": "System.IdentityModel.Tokens.Jwt",
       "targetGraphs": [
         "net8.0"

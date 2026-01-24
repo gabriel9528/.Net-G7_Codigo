@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\Miercoles_14_01\\Identity_JWT\\SearchClassLibrary\\SearchClassLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana15\\Miercoles_14_01\\Identity_JWT\\SearchClassLibrary\\SearchClassLibrary.csproj",
       "projectName": "SearchClassLibrary",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\Miercoles_14_01\\Identity_JWT\\SearchClassLibrary\\SearchClassLibrary.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana15\\Miercoles_14_01\\Identity_JWT\\SearchClassLibrary\\SearchClassLibrary.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\Miercoles_14_01\\Identity_JWT\\SearchClassLibrary\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana15\\Miercoles_14_01\\Identity_JWT\\SearchClassLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
