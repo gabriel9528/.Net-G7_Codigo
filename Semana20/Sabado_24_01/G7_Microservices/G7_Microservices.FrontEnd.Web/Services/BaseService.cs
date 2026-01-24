@@ -10,23 +10,30 @@ namespace G7_Microservices.FrontEnd.Web.Services
     public class BaseService : IBaseService
     {
         private readonly IHttpClientFactory _httpClientFactory;
-        public BaseService(IHttpClientFactory httpClientFactory)
+        private readonly ITokenProvider _tokenProvider;
+        public BaseService(IHttpClientFactory httpClientFactory, ITokenProvider tokenProvider)
         {
             _httpClientFactory = httpClientFactory;
+            _tokenProvider = tokenProvider;
         }
 
-        public async Task<ResponseDto?> SendAsync(RequestDto requestDto)
+        public async Task<ResponseDto?> SendAsync(RequestDto requestDto, bool withBearer = true)
         {
             try
             {
                 HttpClient client = _httpClientFactory.CreateClient("Microservices");
-                HttpRequestMessage message = new HttpRequestMessage();
-                message.Headers.Add("Accept", "application/json");
+                HttpRequestMessage request = new HttpRequestMessage();
+                request.Headers.Add("Accept", "application/json");
 
                 //token
+                if(withBearer)
+                {
+                    var token = _tokenProvider.GetToken();
+                    request.Headers.Add("Authorization", $"Bearer {token}");
+                }
 
-                message.RequestUri = new Uri(requestDto.Url);
-                message.Method = requestDto.API_TYPE switch
+                request.RequestUri = new Uri(requestDto.Url);
+                request.Method = requestDto.API_TYPE switch
                 {
                     API_TYPE.GET => HttpMethod.Get,
                     API_TYPE.POST => HttpMethod.Post,
@@ -38,10 +45,10 @@ namespace G7_Microservices.FrontEnd.Web.Services
                 if (requestDto.Data != null)
                 {
                     string jsonData = JsonConvert.SerializeObject(requestDto.Data);
-                    message.Content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+                    request.Content = new StringContent(jsonData, Encoding.UTF8, "application/json");
                 }
 
-                HttpResponseMessage responseMessage = await client.SendAsync(message);
+                HttpResponseMessage responseMessage = await client.SendAsync(request);
                 if (!responseMessage.IsSuccessStatusCode)
                 {
                     var errorContent = await responseMessage.Content.ReadAsStringAsync();

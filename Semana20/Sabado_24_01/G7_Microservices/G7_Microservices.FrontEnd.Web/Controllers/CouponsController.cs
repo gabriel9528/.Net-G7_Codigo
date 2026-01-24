@@ -1,4 +1,5 @@
 ﻿using G7_Microservices.FrontEnd.Web.Models.Dto;
+using G7_Microservices.FrontEnd.Web.Models.Dto.Coupon;
 using G7_Microservices.FrontEnd.Web.Services.IServices;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;

@@ -1,4 +1,4 @@
-﻿namespace G7_Microservices.FrontEnd.Web.Models.Dto
+﻿namespace G7_Microservices.FrontEnd.Web.Models.Dto.Coupon
 {
     public class CouponRequestDto
     {
