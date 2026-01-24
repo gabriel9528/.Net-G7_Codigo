@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/Backend/">
+    <Project Path="G7_Microservices.Backend.AuthAPI/G7_Microservices.Backend.AuthAPI.csproj" Id="bbefea67-a920-4132-9068-5ae7b7dcac1e" />
     <Project Path="G7_Microservices.Backend.CouponAPI/G7_Microservices.Backend.CouponAPI.csproj" />
   </Folder>
   <Folder Name="/FrontEnd/">

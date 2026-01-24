@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("G7_Microservices.FrontEnd.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e6b6c42414cfd0e6dc0564c1b9b1a13948839d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08f003f89dc4be32fde8f2bf330d04da3b6d9063")]
 [assembly: System.Reflection.AssemblyProductAttribute("G7_Microservices.FrontEnd.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("G7_Microservices.FrontEnd.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

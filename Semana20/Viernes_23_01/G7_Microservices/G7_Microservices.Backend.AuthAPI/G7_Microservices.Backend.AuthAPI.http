@@ -1,0 +1,6 @@
+@G7_Microservices.Backend.AuthAPI_HostAddress = http://localhost:5038
+
+GET {{G7_Microservices.Backend.AuthAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
