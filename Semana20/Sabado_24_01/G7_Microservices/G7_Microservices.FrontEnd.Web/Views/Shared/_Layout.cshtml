@@ -34,27 +34,27 @@
                                 <li><a class="dropdown-item" asp-controller="Coupons" asp-action="CouponIndex">Cupones</a></li>
                                 <li><hr class="dropdown-divider" /></li>
                             </ul>
-                            <ul class="navbar-nav">
-                                @if (!User.Identity.IsAuthenticated)
-                                {
-                                    <li class="nav-item">
-                                        <a class="nav-link" asp-controller="Auth" asp-action="Login">Login</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" asp-controller="Auth" asp-action="Register">Register</a>
-                                    </li>
-                                }
-                                else
-                                {
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Bienvenido, @User.Identity.Name</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" asp-controller="Auth" asp-action="Logout">Login</a>
-                                    </li>
-                                }
-                            </ul>
                         </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        @if (!User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Auth" asp-action="Login">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Auth" asp-action="Register">Register</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Bienvenido, @User.Identity.Name</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Auth" asp-action="Logout">Logout</a>
+                            </li>
+                        }
                     </ul>
                 </div>
             </div>
