@@ -1,0 +1,152 @@
+[
+  {
+    "ContainingType": "G7_Microservices.Backend.CouponAPI.Controllers.CouponsAPIController",
+    "Method": "GetAll",
+    "RelativePath": "api/CouponsAPI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "G7_Microservices.Backend.CouponAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "G7_Microservices.Backend.CouponAPI.Controllers.CouponsAPIController",
+    "Method": "Post",
+    "RelativePath": "api/CouponsAPI",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "couponRequestDto",
+        "Type": "G7_Microservices.Backend.CouponAPI.Models.Dto.CouponRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "G7_Microservices.Backend.CouponAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "G7_Microservices.Backend.CouponAPI.Controllers.CouponsAPIController",
+    "Method": "Put",
+    "RelativePath": "api/CouponsAPI",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "couponRequestDto",
+        "Type": "G7_Microservices.Backend.CouponAPI.Models.Dto.CouponRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "G7_Microservices.Backend.CouponAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "G7_Microservices.Backend.CouponAPI.Controllers.CouponsAPIController",
+    "Method": "GetById",
+    "RelativePath": "api/CouponsAPI/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "G7_Microservices.Backend.CouponAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "G7_Microservices.Backend.CouponAPI.Controllers.CouponsAPIController",
+    "Method": "Delete",
+    "RelativePath": "api/CouponsAPI/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "G7_Microservices.Backend.CouponAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "G7_Microservices.Backend.CouponAPI.Controllers.CouponsAPIController",
+    "Method": "GetByCode",
+    "RelativePath": "api/CouponsAPI/getByCode/{code}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "G7_Microservices.Backend.CouponAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
