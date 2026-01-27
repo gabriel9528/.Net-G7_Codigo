@@ -13,6 +13,10 @@
       {
         "Path": "G7_Microservices.Backend.AuthAPI\\G7_Microservices.Backend.AuthAPI.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "G7_Microservices.Backend.ProductAPI\\G7_Microservices.Backend.ProductAPI.csproj",
+        "Action": "Start"
       }
     ]
   }
