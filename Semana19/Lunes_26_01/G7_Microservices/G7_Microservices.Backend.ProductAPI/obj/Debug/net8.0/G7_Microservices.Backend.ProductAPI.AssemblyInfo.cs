@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("G7_Microservices.Backend.ProductAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ee69d654fa6f7d6625acf829a3621c7e083929e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc478607bcb49d1346b983d5a2dcae047a2cda14")]
 [assembly: System.Reflection.AssemblyProductAttribute("G7_Microservices.Backend.ProductAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("G7_Microservices.Backend.ProductAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
