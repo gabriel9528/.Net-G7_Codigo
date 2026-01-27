@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "G7_Microservices.Backend.AuthAPI.Controllers.AuthAPIController",
+    "Method": "AssignRole",
+    "RelativePath": "api/AuthAPI/assignRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerRequestDto",
+        "Type": "G7_Microservices.Backend.AuthAPI.Models.Dto.RegisterRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "G7_Microservices.Backend.AuthAPI.Controllers.AuthAPIController",
+    "Method": "Login",
+    "RelativePath": "api/AuthAPI/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequestDto",
+        "Type": "G7_Microservices.Backend.AuthAPI.Models.Dto.LoginRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "G7_Microservices.Backend.AuthAPI.Controllers.AuthAPIController",
+    "Method": "Register",
+    "RelativePath": "api/AuthAPI/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerRequestDto",
+        "Type": "G7_Microservices.Backend.AuthAPI.Models.Dto.RegisterRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
