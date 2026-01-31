@@ -2,6 +2,9 @@ using AutoMapper;
 using G7_Microservices.Backend.ShoppingCartAPI;
 using G7_Microservices.Backend.ShoppingCartAPI.Data;
 using G7_Microservices.Backend.ShoppingCartAPI.Extensions;
+using G7_Microservices.Backend.ShoppingCartAPI.Service;
+using G7_Microservices.Backend.ShoppingCartAPI.Service.IService;
+using G7_Microservices.Backend.ShoppingCartAPI.Utility;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
@@ -13,6 +16,21 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddHttpContextAccessor();
+
+builder.Services.AddScoped<ICouponService, CouponService>();
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<BackendAuthenticationHttpClientHandler>();
+
+
+builder.Services.AddHttpClient("Product", x => x.BaseAddress =
+new Uri(builder.Configuration["ServiceUrls:ProductAPI"]))
+    .AddHttpMessageHandler<BackendAuthenticationHttpClientHandler>();
+
+builder.Services.AddHttpClient("Coupon", x => x.BaseAddress =
+new Uri(builder.Configuration["ServiceUrls:CouponAPI"]))
+    .AddHttpMessageHandler<BackendAuthenticationHttpClientHandler>();
+
 builder.Services.AddSwaggerGen(option =>
 {
     option.AddSecurityDefinition(name: JwtBearerDefaults.AuthenticationScheme, securityScheme: new OpenApiSecurityScheme

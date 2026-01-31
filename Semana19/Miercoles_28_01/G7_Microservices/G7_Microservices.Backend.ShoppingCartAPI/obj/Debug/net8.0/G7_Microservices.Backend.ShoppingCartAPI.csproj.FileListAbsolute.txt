@@ -147,3 +147,4 @@ C:\Users\LENOVO\Desktop\.NET-G7\.Net-G7_Codigo\Semana19\Miercoles_28_01\G7_Micro
 C:\Users\LENOVO\Desktop\.NET-G7\.Net-G7_Codigo\Semana19\Miercoles_28_01\G7_Microservices\G7_Microservices.Backend.ShoppingCartAPI\obj\Debug\net8.0\G7_Microservices.Backend.ShoppingCartAPI.pdb
 C:\Users\LENOVO\Desktop\.NET-G7\.Net-G7_Codigo\Semana19\Miercoles_28_01\G7_Microservices\G7_Microservices.Backend.ShoppingCartAPI\obj\Debug\net8.0\G7_Microservices.Backend.ShoppingCartAPI.genruntimeconfig.cache
 C:\Users\LENOVO\Desktop\.NET-G7\.Net-G7_Codigo\Semana19\Miercoles_28_01\G7_Microservices\G7_Microservices.Backend.ShoppingCartAPI\obj\Debug\net8.0\ref\G7_Microservices.Backend.ShoppingCartAPI.dll
+C:\Users\LENOVO\Desktop\.NET-G7\.Net-G7_Codigo\Semana19\Miercoles_28_01\G7_Microservices\G7_Microservices.Backend.ShoppingCartAPI\bin\Debug\net8.0\Newtonsoft.Json.dll
