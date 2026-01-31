@@ -19,7 +19,8 @@ namespace G7_Microservices.FrontEnd.Web.Controllers
         [HttpGet]
         public async Task<IActionResult> ShoppingCartIndex()
         {
-            return View(LoadCartDtoBassedOnLoggedInUser());
+            var cartDto = await LoadCartDtoBassedOnLoggedInUser();
+            return View(cartDto);
         }
 
 
