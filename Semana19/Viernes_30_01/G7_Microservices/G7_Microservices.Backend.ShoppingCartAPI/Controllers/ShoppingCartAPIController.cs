@@ -1,0 +1,275 @@
+﻿using AutoMapper;
+using G7_Microservices.Backend.ShoppingCartAPI.Data;
+using G7_Microservices.Backend.ShoppingCartAPI.Models;
+using G7_Microservices.Backend.ShoppingCartAPI.Models.Dto;
+using G7_Microservices.Backend.ShoppingCartAPI.Service.IService;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+
+namespace G7_Microservices.Backend.ShoppingCartAPI.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class ShoppingCartAPIController : ControllerBase
+    {
+        private readonly ApplicationDbContext _db;
+        private ResponseDto _responseDto;
+        private IMapper _mapper;
+        private readonly ICouponService _couponService;
+        private readonly IProductService _productService;
+        private readonly IConfiguration _configuration;
+
+        public ShoppingCartAPIController(ApplicationDbContext db,
+            IMapper mapper,
+            ICouponService couponService,
+            IProductService productService,
+            IConfiguration configuration)
+        {
+            _db = db;
+            _mapper = mapper;
+            _couponService = couponService;
+            _productService = productService;
+            _configuration = configuration;
+            _responseDto = new ResponseDto();
+        }
+
+        [HttpPost("ApplyCoupon")]
+        public ResponseDto ApplyCoupon([FromBody] CartDto cartDto)
+        {
+            try
+            {
+                CartHeader? cartHeaderFromDb = _db.CartHeaders
+                    .FirstOrDefault(x => x.UserId == cartDto.CartHeaderDto.UserId && !x.IsDeleted);
+                if (cartHeaderFromDb != null)
+                {
+                    cartHeaderFromDb.CouponCode = cartDto?.CartHeaderDto?.CouponCode;
+                    _db.CartHeaders.Update(cartHeaderFromDb);
+                    _db.SaveChanges();
+                }
+
+                _responseDto.Result = true;
+                _responseDto.Message = "Cupon aplicado con exito";
+            }
+            catch (Exception ex)
+            {
+                _responseDto.IsSucess = false;
+                _responseDto.Message = "Ocurrio un error: " + ex.Message;
+            }
+
+            return _responseDto;
+        }
+
+        [HttpPost("RemoveCoupon")]
+        public ResponseDto RemoveCoupon([FromBody] ApplyCouponDto applyCouponDto)
+        {
+            try
+            {
+                CartHeader? cartHeaderFromDb = _db.CartHeaders
+                    .FirstOrDefault(x => x.UserId == applyCouponDto.UserId && !x.IsDeleted);
+                if (cartHeaderFromDb != null)
+                {
+                    cartHeaderFromDb.CouponCode = "";
+                    _db.CartHeaders.Update(cartHeaderFromDb);
+                    _db.SaveChanges();
+                }
+
+                _responseDto.Result = true;
+                _responseDto.Message = "Cupon eliminado con exito";
+            }
+            catch (Exception ex)
+            {
+                _responseDto.IsSucess = false;
+                _responseDto.Message = "Ocurrio un error: " + ex.Message;
+            }
+
+            return _responseDto;
+        }
+
+        [HttpPost("UpSert")]
+        public ResponseDto UpsertCart(CartDto cartDtoRequest)
+        {
+            try
+            {
+                CartHeader? cartHeaderFromDb = _db.CartHeaders
+                    .FirstOrDefault(x => x.UserId == cartDtoRequest.CartHeaderDto.UserId && !x.IsDeleted);
+
+                #region POST
+                CartHeader newCartHeader = new();
+                CartDetails newcartDetails = new CartDetails();
+
+                if(cartHeaderFromDb == null)
+                {
+                    newCartHeader.UserId = cartDtoRequest.CartHeaderDto.UserId;
+                    newCartHeader.CouponCode = cartDtoRequest.CartHeaderDto.CouponCode;
+                    newCartHeader.Discount = cartDtoRequest.CartHeaderDto.Discount;
+                    newCartHeader.CartTotal = cartDtoRequest.CartHeaderDto.CartTotal;
+
+                    _db.CartHeaders.Add(newCartHeader);
+                    _db.SaveChanges();
+
+                    //Relacionar el cartHeader con sus CartDetails
+                    cartDtoRequest.CartDetailsDtos.First().CartHeaderId = newCartHeader.Id;
+
+                    CartDetailsDto? cartDetailsDto = cartDtoRequest.CartDetailsDtos.First();
+                    newcartDetails.CartHeaderId = newCartHeader.Id;
+                    newcartDetails.ProductId = cartDetailsDto.ProductId;
+                    newcartDetails.Count = cartDetailsDto.Count;
+
+                    _db.CartDetails.Add(newcartDetails);
+                    _db.SaveChanges();
+
+                    _responseDto.Result = newCartHeader.Id;
+                    _responseDto.Message = "Cart creado con exito";
+
+                }
+                #endregion
+
+                #region Update
+                else
+                {
+                    //Revisar si los details tienen el mismo producto
+                    CartDetails? cartDetailsFromDb = _db.CartDetails.AsNoTracking().FirstOrDefault(
+                        x=>x.ProductId == cartDtoRequest.CartDetailsDtos.First().ProductId &&
+                        x.CartHeaderId == cartHeaderFromDb.Id);
+
+                    if(cartDetailsFromDb == null)
+                    {
+                        CartDetailsDto? cartDetailsDto = cartDtoRequest.CartDetailsDtos.FirstOrDefault();
+                        newcartDetails.CartHeaderId = cartDetailsDto.CartHeaderId;
+                        newcartDetails.ProductId = cartDetailsDto.ProductId;
+                        newcartDetails.Count= cartDetailsDto.Count;
+
+                        _db.CartDetails.Add(newcartDetails);
+                        _db.SaveChanges();
+
+                        _responseDto.Result = newCartHeader.Id;
+                        _responseDto.Message = "CartDetails agregados con exito";
+
+                    }
+                    else
+                    {
+                        //Si existen los details los actualizamos
+                        cartDetailsFromDb.Count += cartDtoRequest.CartDetailsDtos.FirstOrDefault().Count;
+                        cartDetailsFromDb.CartHeaderId = cartDtoRequest.CartDetailsDtos.FirstOrDefault().CartHeaderId;
+                        cartDetailsFromDb.ProductId = cartDtoRequest.CartDetailsDtos.FirstOrDefault().ProductId;
+
+                        _db.CartDetails.Update(cartDetailsFromDb);
+                        _db.SaveChanges();
+
+                        _responseDto.Result = true;
+                        _responseDto.Message = "CartDetails actualizados con exito";
+                    }
+
+                }
+                #endregion
+            }
+            catch (Exception ex)
+            {
+                _responseDto.IsSucess = false;
+                _responseDto.Message = "Ocurrio un error: " + ex.Message;
+            }
+
+            return _responseDto;
+        }
+
+        [HttpGet("GetCart/{userId}")]
+        public async Task<ResponseDto> GetCartByUserId(string userId)
+        {
+            try
+            {
+                CartHeaderDto cartHeaderDto = new CartHeaderDto();
+                CartHeader? cartHeaderFromDb = _db.CartHeaders
+                    .FirstOrDefault(x => x.UserId == userId && !x.IsDeleted);
+                if (cartHeaderFromDb != null)
+                {
+                    cartHeaderDto.Id = cartHeaderFromDb.Id;
+                    cartHeaderDto.UserId = userId;
+                    cartHeaderDto.CouponCode = cartHeaderFromDb.CouponCode;
+                    cartHeaderDto.Discount = cartHeaderFromDb.Discount;
+                    cartHeaderDto.CartTotal = cartHeaderFromDb.CartTotal == null ? 0 : cartHeaderFromDb.CartTotal;
+                }
+                CartDto cartDto = new CartDto()
+                {
+                    CartHeaderDto = cartHeaderDto,
+                    CartDetailsDtos = _db.CartDetails
+                    .Where(x=>x.CartHeaderId == cartHeaderDto.Id)
+                    .Select(p=> new CartDetailsDto
+                    {
+                        Id = p.Id,
+                        CartHeaderId = p.Id,
+                        ProductId = p.ProductId,
+                        Count = p.Count
+                    })
+                    .ToList()
+                };
+
+                //ProductService
+                IEnumerable<ProductDto> listProducts = await _productService.GetProductsAsync();
+                foreach (var item in cartDto.CartDetailsDtos)
+                {
+                    item.ProductDto = listProducts.FirstOrDefault(x => x.Id == item.ProductId);
+                    cartDto.CartHeaderDto.CartTotal += (item.Count * item?.ProductDto?.Price);
+                }
+
+                //CouponService
+                if (!string.IsNullOrEmpty(cartDto.CartHeaderDto.CouponCode))
+                {
+                    CouponDto couponDto = await _couponService.GetCouponByCodeAsync(cartDto.CartHeaderDto.CouponCode);
+                    if(couponDto != null && cartDto.CartHeaderDto.CartTotal > couponDto.MinimunAmount)
+                    {
+                        cartDto.CartHeaderDto.CartTotal -= couponDto.DiscountAmount;
+                        cartDto.CartHeaderDto.Discount = couponDto.DiscountAmount;
+                    }
+                }
+
+                _responseDto.Result = cartDto;
+                _responseDto.Message = "Cart recuperado con exito";
+            }
+            catch (Exception ex)
+            {
+                _responseDto.IsSucess = false;
+                _responseDto.Message = "Ocurrio un error: " + ex.Message;
+            }
+
+            return _responseDto;
+        }
+
+        [HttpPost("RemoveCart")]
+        public async Task<ResponseDto> RemoveCart([FromBody] int cartDetailsId)
+        {
+            try
+            {
+                CartDetails? cartDetails = _db.CartDetails
+                    .FirstOrDefault(x => x.Id == cartDetailsId && !x.IsDeleted);
+
+                int totalCountOfCartDetails = _db.CartDetails
+                    .Where(x=>x.CartHeaderId == cartDetails.CartHeaderId && !x.IsDeleted).Count();
+
+                cartDetails.IsDeleted = true;
+                _db.CartDetails.Update(cartDetails);
+                _db.SaveChanges();
+
+                if(totalCountOfCartDetails == 1)
+                {
+                    CartHeader? cartHeaderFromDb = await _db.CartHeaders
+                        .FirstOrDefaultAsync(x => x.Id == cartDetails.CartHeaderId);
+
+                    cartHeaderFromDb.IsDeleted = true;
+                    _db.CartHeaders.Update(cartHeaderFromDb);
+                    _db.SaveChanges();
+                }
+
+                _responseDto.Result = true;
+                _responseDto.Message = "Cart eliminado con exito";
+            }
+            catch (Exception ex)
+            {
+                _responseDto.IsSucess = false;
+                _responseDto.Message = "Ocurrio un error: " + ex.Message;
+            }
+
+            return _responseDto;
+        }
+
+    }
+}

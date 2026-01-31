@@ -1,0 +1,22 @@
+﻿namespace G7_Microservices.FrontEnd.Web.Utility
+{
+    public class SD
+    {
+        public static string CouponAPIBase { get; set; }
+        public static string AuthAPIBase { get; set; }
+        public static string ProductAPIBase { get; set; }
+
+        public const string TokenCookie = "JwtToken";
+
+        public const string RoleAdmin = "ADMIN";
+
+        public const string RoleCustomer = "CUSTOMER";
+        public enum API_TYPE
+        {
+            GET,
+            POST,
+            PUT,
+            DELETE
+        }
+    }
+}

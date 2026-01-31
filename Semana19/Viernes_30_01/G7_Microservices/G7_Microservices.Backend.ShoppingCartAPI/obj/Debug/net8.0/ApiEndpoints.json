@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "G7_Microservices.Backend.ShoppingCartAPI.Controllers.ShoppingCartAPIController",
+    "Method": "ApplyCoupon",
+    "RelativePath": "api/ShoppingCartAPI/ApplyCoupon",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartDto",
+        "Type": "G7_Microservices.Backend.ShoppingCartAPI.Models.Dto.CartDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "G7_Microservices.Backend.ShoppingCartAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "G7_Microservices.Backend.ShoppingCartAPI.Controllers.ShoppingCartAPIController",
+    "Method": "RemoveCoupon",
+    "RelativePath": "api/ShoppingCartAPI/RemoveCoupon",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "applyCouponDto",
+        "Type": "G7_Microservices.Backend.ShoppingCartAPI.Models.Dto.ApplyCouponDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "G7_Microservices.Backend.ShoppingCartAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
