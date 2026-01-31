@@ -20,7 +20,7 @@ namespace G7_Microservices.Backend.ProductAPI.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public ResponseDto GetAll()
         {
             try
@@ -55,7 +55,7 @@ namespace G7_Microservices.Backend.ProductAPI.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         [Route("{id:int}")]
         public ResponseDto GetById(int id)
         {
@@ -94,7 +94,7 @@ namespace G7_Microservices.Backend.ProductAPI.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public ResponseDto Post([FromBody] ProductDto productDto)
         {
             Product newProduct = new Product();
@@ -134,7 +134,7 @@ namespace G7_Microservices.Backend.ProductAPI.Controllers
         }
 
         [HttpPut]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public ResponseDto Put([FromBody] ProductDto productDto)
         {
             try
@@ -181,7 +181,7 @@ namespace G7_Microservices.Backend.ProductAPI.Controllers
 
         [HttpDelete]
         [Route("{id:int}")]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public ResponseDto Delete(int id)
         {
             try

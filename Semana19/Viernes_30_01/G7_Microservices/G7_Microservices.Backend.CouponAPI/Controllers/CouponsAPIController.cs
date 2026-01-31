@@ -10,7 +10,7 @@ namespace G7_Microservices.Backend.CouponAPI.Controllers
     [Route("api/[controller]")]
     [ApiController]
     //[Authorize]
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     public class CouponsAPIController : ControllerBase
     {
         private readonly ApplicationDbContext _db;
@@ -104,7 +104,7 @@ namespace G7_Microservices.Backend.CouponAPI.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public ResponseDto Post([FromBody] CouponRequestDto couponRequestDto)
         {
             try

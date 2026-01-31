@@ -17,6 +17,10 @@
       {
         "Path": "G7_Microservices.Backend.ProductAPI\\G7_Microservices.Backend.ProductAPI.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "G7_Microservices.Backend.ShoppingCartAPI\\G7_Microservices.Backend.ShoppingCartAPI.csproj",
+        "Action": "Start"
       }
     ]
   }

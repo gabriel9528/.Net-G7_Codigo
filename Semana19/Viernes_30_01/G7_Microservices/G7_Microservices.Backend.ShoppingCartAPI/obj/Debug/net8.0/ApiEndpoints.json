@@ -27,6 +27,58 @@
   },
   {
     "ContainingType": "G7_Microservices.Backend.ShoppingCartAPI.Controllers.ShoppingCartAPIController",
+    "Method": "GetCartByUserId",
+    "RelativePath": "api/ShoppingCartAPI/GetCart/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "G7_Microservices.Backend.ShoppingCartAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "G7_Microservices.Backend.ShoppingCartAPI.Controllers.ShoppingCartAPIController",
+    "Method": "RemoveCart",
+    "RelativePath": "api/ShoppingCartAPI/RemoveCart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartDetailsId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "G7_Microservices.Backend.ShoppingCartAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "G7_Microservices.Backend.ShoppingCartAPI.Controllers.ShoppingCartAPIController",
     "Method": "RemoveCoupon",
     "RelativePath": "api/ShoppingCartAPI/RemoveCoupon",
     "HttpMethod": "POST",
@@ -36,6 +88,32 @@
       {
         "Name": "applyCouponDto",
         "Type": "G7_Microservices.Backend.ShoppingCartAPI.Models.Dto.ApplyCouponDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "G7_Microservices.Backend.ShoppingCartAPI.Models.Dto.ResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "G7_Microservices.Backend.ShoppingCartAPI.Controllers.ShoppingCartAPIController",
+    "Method": "UpsertCart",
+    "RelativePath": "api/ShoppingCartAPI/UpSert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartDtoRequest",
+        "Type": "G7_Microservices.Backend.ShoppingCartAPI.Models.Dto.CartDto",
         "IsRequired": true
       }
     ],
