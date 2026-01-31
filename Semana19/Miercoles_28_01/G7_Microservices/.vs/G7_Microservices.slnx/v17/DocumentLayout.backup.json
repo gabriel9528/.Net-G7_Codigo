@@ -112,7 +112,7 @@
               "RelativeDocumentMoniker": "G7_Microservices.Backend.ShoppingCartAPI\\Controllers\\ShoppingCartAPIController.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Miercoles_28_01\\G7_Microservices\\G7_Microservices.Backend.ShoppingCartAPI\\Controllers\\ShoppingCartAPIController.cs",
               "RelativeToolTip": "G7_Microservices.Backend.ShoppingCartAPI\\Controllers\\ShoppingCartAPIController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAADwvzsAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswDEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-31T02:54:05.077Z",
               "EditorCaption": ""
@@ -176,7 +176,8 @@
               "RelativeToolTip": "G7_Microservices.Backend.ProductAPI\\Controllers\\ProductsAPIController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T02:00:01.676Z"
+              "WhenOpened": "2026-01-31T02:00:01.676Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -200,7 +201,8 @@
               "RelativeToolTip": "G7_Microservices.Backend.CouponAPI\\Controllers\\CouponsAPIController.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAgwEwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T01:53:20.19Z"
+              "WhenOpened": "2026-01-31T01:53:20.19Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

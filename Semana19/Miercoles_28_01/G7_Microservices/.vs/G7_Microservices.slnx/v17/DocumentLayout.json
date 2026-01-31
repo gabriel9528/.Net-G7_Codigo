@@ -83,16 +83,8 @@
       "RelativeMoniker": "D:0:0:{5D347F0F-3C49-4893-A2E4-9D6F6DD05CAD}|G7_Microservices.Backend.ShoppingCartAPI\\G7_Microservices.Backend.ShoppingCartAPI.csproj|solutionrelative:g7_microservices.backend.shoppingcartapi\\models\\dto\\coupondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D347F0F-3C49-4893-A2E4-9D6F6DD05CAD}|G7_Microservices.Backend.ShoppingCartAPI\\G7_Microservices.Backend.ShoppingCartAPI.csproj|c:\\users\\lenovo\\desktop\\.net-g7\\.net-g7_codigo\\semana19\\miercoles_28_01\\g7_microservices\\g7_microservices.backend.shoppingcartapi\\models\\dto\\cartdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D347F0F-3C49-4893-A2E4-9D6F6DD05CAD}|G7_Microservices.Backend.ShoppingCartAPI\\G7_Microservices.Backend.ShoppingCartAPI.csproj|solutionrelative:g7_microservices.backend.shoppingcartapi\\models\\dto\\cartdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5D347F0F-3C49-4893-A2E4-9D6F6DD05CAD}|G7_Microservices.Backend.ShoppingCartAPI\\G7_Microservices.Backend.ShoppingCartAPI.csproj|c:\\users\\lenovo\\desktop\\.net-g7\\.net-g7_codigo\\semana19\\miercoles_28_01\\g7_microservices\\g7_microservices.backend.shoppingcartapi\\models\\dto\\cartheaderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D347F0F-3C49-4893-A2E4-9D6F6DD05CAD}|G7_Microservices.Backend.ShoppingCartAPI\\G7_Microservices.Backend.ShoppingCartAPI.csproj|solutionrelative:g7_microservices.backend.shoppingcartapi\\models\\dto\\cartheaderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D347F0F-3C49-4893-A2E4-9D6F6DD05CAD}|G7_Microservices.Backend.ShoppingCartAPI\\G7_Microservices.Backend.ShoppingCartAPI.csproj|c:\\users\\lenovo\\desktop\\.net-g7\\.net-g7_codigo\\semana19\\miercoles_28_01\\g7_microservices\\g7_microservices.backend.shoppingcartapi\\models\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D347F0F-3C49-4893-A2E4-9D6F6DD05CAD}|G7_Microservices.Backend.ShoppingCartAPI\\G7_Microservices.Backend.ShoppingCartAPI.csproj|solutionrelative:g7_microservices.backend.shoppingcartapi\\models\\dto\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -112,35 +104,10 @@
               "RelativeDocumentMoniker": "G7_Microservices.Backend.ShoppingCartAPI\\Controllers\\ShoppingCartAPIController.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Miercoles_28_01\\G7_Microservices\\G7_Microservices.Backend.ShoppingCartAPI\\Controllers\\ShoppingCartAPIController.cs",
               "RelativeToolTip": "G7_Microservices.Backend.ShoppingCartAPI\\Controllers\\ShoppingCartAPIController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAswDEAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwO0AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-31T02:54:05.077Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Miercoles_28_01\\G7_Microservices\\G7_Microservices.Backend.ShoppingCartAPI\\Program.cs",
-              "RelativeDocumentMoniker": "G7_Microservices.Backend.ShoppingCartAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Miercoles_28_01\\G7_Microservices\\G7_Microservices.Backend.ShoppingCartAPI\\Program.cs",
-              "RelativeToolTip": "G7_Microservices.Backend.ShoppingCartAPI\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAADwvw0AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T01:15:25.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Miercoles_28_01\\G7_Microservices\\G7_Microservices.Backend.ShoppingCartAPI\\Service\\ProductService.cs",
-              "RelativeDocumentMoniker": "G7_Microservices.Backend.ShoppingCartAPI\\Service\\ProductService.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Miercoles_28_01\\G7_Microservices\\G7_Microservices.Backend.ShoppingCartAPI\\Service\\ProductService.cs",
-              "RelativeToolTip": "G7_Microservices.Backend.ShoppingCartAPI\\Service\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T01:58:01.331Z"
             },
             {
               "$type": "Document",
@@ -176,8 +143,7 @@
               "RelativeToolTip": "G7_Microservices.Backend.ProductAPI\\Controllers\\ProductsAPIController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T02:00:01.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T02:00:01.676Z"
             },
             {
               "$type": "Document",
@@ -193,6 +159,30 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Miercoles_28_01\\G7_Microservices\\G7_Microservices.Backend.ShoppingCartAPI\\Program.cs",
+              "RelativeDocumentMoniker": "G7_Microservices.Backend.ShoppingCartAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Miercoles_28_01\\G7_Microservices\\G7_Microservices.Backend.ShoppingCartAPI\\Program.cs",
+              "RelativeToolTip": "G7_Microservices.Backend.ShoppingCartAPI\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvw0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T01:15:25.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Miercoles_28_01\\G7_Microservices\\G7_Microservices.Backend.ShoppingCartAPI\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "G7_Microservices.Backend.ShoppingCartAPI\\Service\\ProductService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Miercoles_28_01\\G7_Microservices\\G7_Microservices.Backend.ShoppingCartAPI\\Service\\ProductService.cs",
+              "RelativeToolTip": "G7_Microservices.Backend.ShoppingCartAPI\\Service\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T01:58:01.331Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
               "Title": "CouponsAPIController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Miercoles_28_01\\G7_Microservices\\G7_Microservices.Backend.CouponAPI\\Controllers\\CouponsAPIController.cs",
@@ -201,8 +191,7 @@
               "RelativeToolTip": "G7_Microservices.Backend.CouponAPI\\Controllers\\CouponsAPIController.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAgwEwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T01:53:20.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T01:53:20.19Z"
             },
             {
               "$type": "Document",
@@ -350,19 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Miercoles_28_01\\G7_Microservices\\G7_Microservices.Backend.ShoppingCartAPI\\Models\\Dto\\ProductDto.cs",
-              "RelativeDocumentMoniker": "G7_Microservices.Backend.ShoppingCartAPI\\Models\\Dto\\ProductDto.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Miercoles_28_01\\G7_Microservices\\G7_Microservices.Backend.ShoppingCartAPI\\Models\\Dto\\ProductDto.cs",
-              "RelativeToolTip": "G7_Microservices.Backend.ShoppingCartAPI\\Models\\Dto\\ProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T01:09:24.086Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "CartHeaderDto.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Miercoles_28_01\\G7_Microservices\\G7_Microservices.Backend.ShoppingCartAPI\\Models\\Dto\\CartHeaderDto.cs",
               "RelativeDocumentMoniker": "G7_Microservices.Backend.ShoppingCartAPI\\Models\\Dto\\CartHeaderDto.cs",
@@ -371,18 +348,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-31T01:08:21.057Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CartDetailsDto.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Miercoles_28_01\\G7_Microservices\\G7_Microservices.Backend.ShoppingCartAPI\\Models\\Dto\\CartDetailsDto.cs",
-              "RelativeDocumentMoniker": "G7_Microservices.Backend.ShoppingCartAPI\\Models\\Dto\\CartDetailsDto.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Miercoles_28_01\\G7_Microservices\\G7_Microservices.Backend.ShoppingCartAPI\\Models\\Dto\\CartDetailsDto.cs",
-              "RelativeToolTip": "G7_Microservices.Backend.ShoppingCartAPI\\Models\\Dto\\CartDetailsDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T01:06:38.779Z"
             }
           ]
         }

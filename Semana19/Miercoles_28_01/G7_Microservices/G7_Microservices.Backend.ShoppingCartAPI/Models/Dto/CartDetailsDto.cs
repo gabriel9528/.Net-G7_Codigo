@@ -6,7 +6,7 @@
         public int CartHeaderId { get; set; }
         public virtual CartHeaderDto CartHeaderDto { get; set; }
         public int ProductId { get; set; }
-        public virtual ProductDto Product { get; set; }
+        public virtual ProductDto ProductDto { get; set; }
         public int Count { get; set; }
     }
 }
