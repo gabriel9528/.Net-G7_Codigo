@@ -5,6 +5,7 @@ using G7_Microservices.Backend.ShoppingCartAPI.Extensions;
 using G7_Microservices.Backend.ShoppingCartAPI.Service;
 using G7_Microservices.Backend.ShoppingCartAPI.Service.IService;
 using G7_Microservices.Backend.ShoppingCartAPI.Utility;
+using G7_Microservices.Integration.MessageBus;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
@@ -21,6 +22,7 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<ICouponService, CouponService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<BackendAuthenticationHttpClientHandler>();
+builder.Services.AddScoped<IMessageBus, MessageBus>();
 
 
 builder.Services.AddHttpClient("Product", x => x.BaseAddress =

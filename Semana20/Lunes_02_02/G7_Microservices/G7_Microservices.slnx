@@ -9,5 +9,7 @@
     <Project Path="G7_Microservices.FrontEnd.Web/G7_Microservices.FrontEnd.Web.csproj" />
   </Folder>
   <Folder Name="/GateWay/" />
-  <Folder Name="/Integration/" />
+  <Folder Name="/Integration/">
+    <Project Path="G7_Microservices.Integration.MessageBus/G7_Microservices.Integration.MessageBus.csproj" Id="bdab9431-7cdf-4582-8bc8-202cd2ebe88f" />
+  </Folder>
 </Solution>

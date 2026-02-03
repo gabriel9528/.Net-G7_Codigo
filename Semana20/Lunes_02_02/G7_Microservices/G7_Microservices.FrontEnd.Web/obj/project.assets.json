@@ -255,11 +255,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Viernes_30_01\\G7_Microservices\\G7_Microservices.FrontEnd.Web\\G7_Microservices.FrontEnd.Web.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana20\\Lunes_02_02\\G7_Microservices\\G7_Microservices.FrontEnd.Web\\G7_Microservices.FrontEnd.Web.csproj",
       "projectName": "G7_Microservices.FrontEnd.Web",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Viernes_30_01\\G7_Microservices\\G7_Microservices.FrontEnd.Web\\G7_Microservices.FrontEnd.Web.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana20\\Lunes_02_02\\G7_Microservices\\G7_Microservices.FrontEnd.Web\\G7_Microservices.FrontEnd.Web.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Viernes_30_01\\G7_Microservices\\G7_Microservices.FrontEnd.Web\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana20\\Lunes_02_02\\G7_Microservices\\G7_Microservices.FrontEnd.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

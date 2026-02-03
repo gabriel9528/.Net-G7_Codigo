@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wzH8aHzN/cI=",
+  "dgSpecHash": "NvSEUbbkBsE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Viernes_30_01\\G7_Microservices\\G7_Microservices.FrontEnd.Web\\G7_Microservices.FrontEnd.Web.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana20\\Lunes_02_02\\G7_Microservices\\G7_Microservices.FrontEnd.Web\\G7_Microservices.FrontEnd.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.1.2\\microsoft.identitymodel.abstractions.7.1.2.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.1.2\\microsoft.identitymodel.jsonwebtokens.7.1.2.nupkg.sha512",

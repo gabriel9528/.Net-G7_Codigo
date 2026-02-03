@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Viernes_30_01\\G7_Microservices\\G7_Microservices.Backend.AuthAPI\\G7_Microservices.Backend.AuthAPI.csproj": {}
+    "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana20\\Lunes_02_02\\G7_Microservices\\G7_Microservices.Backend.AuthAPI\\G7_Microservices.Backend.AuthAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Viernes_30_01\\G7_Microservices\\G7_Microservices.Backend.AuthAPI\\G7_Microservices.Backend.AuthAPI.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana20\\Lunes_02_02\\G7_Microservices\\G7_Microservices.Backend.AuthAPI\\G7_Microservices.Backend.AuthAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Viernes_30_01\\G7_Microservices\\G7_Microservices.Backend.AuthAPI\\G7_Microservices.Backend.AuthAPI.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana20\\Lunes_02_02\\G7_Microservices\\G7_Microservices.Backend.AuthAPI\\G7_Microservices.Backend.AuthAPI.csproj",
         "projectName": "G7_Microservices.Backend.AuthAPI",
-        "projectPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Viernes_30_01\\G7_Microservices\\G7_Microservices.Backend.AuthAPI\\G7_Microservices.Backend.AuthAPI.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana20\\Lunes_02_02\\G7_Microservices\\G7_Microservices.Backend.AuthAPI\\G7_Microservices.Backend.AuthAPI.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana19\\Viernes_30_01\\G7_Microservices\\G7_Microservices.Backend.AuthAPI\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\.NET-G7\\.Net-G7_Codigo\\Semana20\\Lunes_02_02\\G7_Microservices\\G7_Microservices.Backend.AuthAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
