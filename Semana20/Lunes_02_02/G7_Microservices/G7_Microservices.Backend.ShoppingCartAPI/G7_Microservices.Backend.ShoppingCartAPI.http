@@ -1,0 +1,6 @@
+@G7_Microservices.Backend.ShoppingCartAPI_HostAddress = http://localhost:5141
+
+GET {{G7_Microservices.Backend.ShoppingCartAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

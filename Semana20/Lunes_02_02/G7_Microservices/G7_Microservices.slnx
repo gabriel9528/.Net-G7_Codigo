@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Backend/">
+    <Project Path="G7_Microservices.Backend.AuthAPI/G7_Microservices.Backend.AuthAPI.csproj" Id="bbefea67-a920-4132-9068-5ae7b7dcac1e" />
+    <Project Path="G7_Microservices.Backend.CouponAPI/G7_Microservices.Backend.CouponAPI.csproj" />
+    <Project Path="G7_Microservices.Backend.ProductAPI/G7_Microservices.Backend.ProductAPI.csproj" Id="7db62fb5-6f29-45d3-bee1-f9f64e84c2e2" />
+    <Project Path="G7_Microservices.Backend.ShoppingCartAPI/G7_Microservices.Backend.ShoppingCartAPI.csproj" Id="5d347f0f-3c49-4893-a2e4-9d6f6dd05cad" />
+  </Folder>
+  <Folder Name="/FrontEnd/">
+    <Project Path="G7_Microservices.FrontEnd.Web/G7_Microservices.FrontEnd.Web.csproj" />
+  </Folder>
+  <Folder Name="/GateWay/" />
+  <Folder Name="/Integration/" />
+</Solution>
