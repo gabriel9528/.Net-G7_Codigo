@@ -9,5 +9,6 @@ namespace G7_Microservices.FrontEnd.Web.Services.IServices
         Task<ResponseDto?> UpsertCartAsync(CartDto cartDto);
         Task<ResponseDto?> RemoveCartAsync(int cartDetailsId);
         Task<ResponseDto?> ApplyCouponAsync(CartDto applyCouponDto);
+        Task<ResponseDto?> EmailCart(CartDto cartDto);
     }
 }

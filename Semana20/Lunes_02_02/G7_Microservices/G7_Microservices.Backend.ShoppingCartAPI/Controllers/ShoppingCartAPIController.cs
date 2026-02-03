@@ -3,6 +3,7 @@ using G7_Microservices.Backend.ShoppingCartAPI.Data;
 using G7_Microservices.Backend.ShoppingCartAPI.Models;
 using G7_Microservices.Backend.ShoppingCartAPI.Models.Dto;
 using G7_Microservices.Backend.ShoppingCartAPI.Service.IService;
+using G7_Microservices.Integration.MessageBus;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -18,12 +19,14 @@ namespace G7_Microservices.Backend.ShoppingCartAPI.Controllers
         private readonly ICouponService _couponService;
         private readonly IProductService _productService;
         private readonly IConfiguration _configuration;
+        private readonly IMessageBus _messageBus;
 
         public ShoppingCartAPIController(ApplicationDbContext db,
             IMapper mapper,
             ICouponService couponService,
             IProductService productService,
-            IConfiguration configuration)
+            IConfiguration configuration,
+            IMessageBus messageBus)
         {
             _db = db;
             _mapper = mapper;
@@ -31,6 +34,7 @@ namespace G7_Microservices.Backend.ShoppingCartAPI.Controllers
             _productService = productService;
             _configuration = configuration;
             _responseDto = new ResponseDto();
+            _messageBus = messageBus;
         }
 
         [HttpPost("ApplyCoupon")]
@@ -266,6 +270,26 @@ namespace G7_Microservices.Backend.ShoppingCartAPI.Controllers
             {
                 _responseDto.IsSucess = false;
                 _responseDto.Message = "Ocurrio un error: " + ex.Message;
+            }
+
+            return _responseDto;
+        }
+
+        [HttpPost("EmailCartRequest")]
+        public async Task<object> EmailCartRequest([FromBody] CartDto cartDto)
+        {
+            try
+            {
+                await _messageBus
+                    .PublishMessage(cartDto, _configuration.GetValue<string>("TopicAndQueueNames:EmailShoppingCartQueue"));
+
+                _responseDto.Result = true;
+                _responseDto.Message = "Envio realizado con exito";
+            }
+            catch(Exception ex)
+            {
+                _responseDto.IsSucess = false;
+                _responseDto.Message = "Error, envio no realizado: " + ex.Message;
             }
 
             return _responseDto;

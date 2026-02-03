@@ -23,7 +23,6 @@ namespace G7_Microservices.FrontEnd.Web.Controllers
             return View(cartDto);
         }
 
-
         public async Task<IActionResult> RemoveCart(int cartDeailsId)
         {
             ResponseDto responseDto = await _shoppingCartService.RemoveCartAsync(cartDeailsId);
@@ -69,6 +68,34 @@ namespace G7_Microservices.FrontEnd.Web.Controllers
                 TempData["success"] = "Cupon aplicado exitosamente";
                 return RedirectToAction(nameof(ShoppingCartIndex));
             }
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> EmailCart(CartDto cartDto)
+        {
+            try
+            {
+                CartDto cart = await LoadCartDtoBassedOnLoggedInUser();
+                cart.CartHeaderDto.Email =
+                    User.Claims.Where(x => x.Type == JwtRegisteredClaimNames.Email)?.FirstOrDefault()?.Value;
+
+                ResponseDto? responseDto = await _shoppingCartService.EmailCart(cart);
+                if (responseDto != null && responseDto.IsSucess)
+                {
+                    TempData["success"] = "Email procesado correctamente";
+                    return RedirectToAction(nameof(ShoppingCartIndex));
+                }
+                else
+                {
+                    TempData["error"] = "El email no pudo ser procesado";
+                }
+            }
+            catch (Exception ex)
+            {
+                TempData["error"] = "Error: " + ex.Message.ToString();
+            }
+
             return View();
         }
 

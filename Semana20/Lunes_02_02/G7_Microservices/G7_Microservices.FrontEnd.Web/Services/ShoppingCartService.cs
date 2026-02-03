@@ -53,6 +53,15 @@ namespace G7_Microservices.FrontEnd.Web.Services
                 Url = ShoppingCartAPIBase + $"/api/ShoppingCartAPI/RemoveCart"
             });
         }
-        
+
+        public async Task<ResponseDto?> EmailCart(CartDto cartDto)
+        {
+            return await _baseService.SendAsync(new RequestDto()
+            {
+                API_TYPE = API_TYPE.POST,
+                Data = cartDto,
+                Url = ShoppingCartAPIBase + $"/api/ShoppingCartAPI/EmailCartRequest"
+            });
+        }
     }
 }
